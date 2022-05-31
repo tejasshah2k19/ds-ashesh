@@ -1,0 +1,27 @@
+h.w 
+insertion sort
+binary search  
+
+------------------------
+we have chain class, that stores an id and rank.
+we need to create n numbers of chain in block. 
+starting id is 6. 
+next id is depend on current id. 
+if current id is even then divide current id by 2 and u get next id 
+if current id is odd then multiply current id with 3 and add 1 , u get next id.
+
+repeat this process until u get id = 1 
+
+what is rank ? 
+rank is the position of chain it starts with 1 
+and increase by 1 in every chain. 
+
+you also need to take care that max chain in 1 block is 49. 
+
+
+**must use linked list 
+**we have chain class that act as node 
+**block class act as caller , so all head and other stuff u have to put inside block. 
+**to create chain u can use recursion that is  plus point++ 
+
+
